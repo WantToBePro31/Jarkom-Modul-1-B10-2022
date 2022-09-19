@@ -55,7 +55,7 @@ Kasus soal ini, kita lakukan dengan display filter `tcp.srcport == 21` dan akan 
 ## 5
 > Filter sehingga wireshark hanya mengambil paket yang berasal dari port 443!
 pertama masuk ke file paket yang tersedia di drive lakukan `tcp.srcport == 443`
-![image](
+![image](https://github.com/WantToBePro31/Jarkom-Modul-1-B10-2022/blob/main/No.5%20Jarkom.png)
 ## 6
 > Filter sehingga wireshark hanya menampilkan paket yang menuju ke lipi.go.id !
 pertama , lakukan pint terlebih dahulu pada cmd `ping lipi.go.id`
