@@ -61,10 +61,14 @@ pertama , lakukan pint terlebih dahulu pada cmd `ping lipi.go.id`
 ![image](https://github.com/WantToBePro31/Jarkom-Modul-1-B10-2022/blob/main/CMD.png)
 
 kemudian , langsung masukin `tcp contains "lipi.go.id"`
-![image](
+![image](https://github.com/WantToBePro31/Jarkom-Modul-1-B10-2022/blob/main/No.6%20Jarkom.png)
 
 ## 7
 > Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
+
+pertama cek ip dulu `ipconfig` pada cmd 
+![image](
+
 
 ### Cerita soal 8-10
 Untuk soal 8-10, silahkan baca cerita di bawah ini!
