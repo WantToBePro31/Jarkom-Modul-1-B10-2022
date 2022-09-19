@@ -95,6 +95,8 @@ Sehingga didapatkan percakapan penuh antara kedua oknum
 
 ![bukti](https://user-images.githubusercontent.com/66405353/191038482-0e3a4621-831d-4740-96b4-686d5622abe9.png)
 
+![image](https://user-images.githubusercontent.com/67154280/191054513-103a26ad-f41a-4c1c-a478-859b36cbea34.png)
+
 ## 9
 > Terdapat laporan adanya pertukaran file yang dilakukan oleh kedua mahasiswa dalam percakapan yang diperoleh, carilah file yang dimaksud! Untuk memudahkan laporan kepada atasan, beri nama file yang ditemukan dengan format [nama_kelompok].des3 dan simpan output file dengan nama “flag.txt”.
 
