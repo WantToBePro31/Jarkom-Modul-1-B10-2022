@@ -38,8 +38,6 @@ Kasus soal ini, kita lakukan dengan display filter `tcp.srcport == 21` dan akan 
 ## 5
 > Filter sehingga wireshark hanya mengambil paket yang berasal dari port 443!
 
-Pertama , buka file paket yang tersedia pada drive , kemudian lakukan `tcp.srcport == 443`
-
 ## 6
 > Filter sehingga wireshark hanya menampilkan paket yang menuju ke lipi.go.id !
 
@@ -47,9 +45,30 @@ Pertama , buka file paket yang tersedia pada drive , kemudian lakukan `tcp.srcpo
 ## 7
 > Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
 
+### Cerita soal 8-10
+Untuk soal 8-10, silahkan baca cerita di bawah ini!
+
+Di sebuah planet bernama Viltrumite, terdapat Kementerian Komunikasi dan Informatika yang baru saja menetapkan kebijakan baru. Dalam kebijakan baru tersebut, pemerintah dapat mengakses data pribadi masyarakat secara bebas jika memang dibutuhkan, baik dengan maupun tanpa persetujuan pihak yang bersangkutan. Sebagai mahasiswa yang sedang melaksanakan program magang di kementerian tersebut, kalian mendapat tugas berupa penyadapan percakapan mahasiswa yang diduga melakukan tindak kecurangan dalam kegiatan Praktikum Komunikasi Data dan Jaringan Komputer 2022. Selain itu, terdapat sebuah password rahasia (flag) yang diduga merupakan milik sebuah organisasi bawah tanah yang selama ini tidak sejalan dengan pemerintahan Planet Viltrumite. Tunggu apa lagi, segera kerjakan tugas magang tersebut agar kalian bisa mendapatkan pujian serta kenaikan jabatan di kementerian tersebut!
+
 
 ## 8
-> 
+> Telusuri aliran paket dalam file .pcap yang diberikan, cari informasi berguna berupa percakapan antara dua mahasiswa terkait tindakan kecurangan pada kegiatan praktikum. Percakapan tersebut dilaporkan menggunakan protokol jaringan dengan tingkat keandalan yang tinggi dalam pertukaran datanya sehingga kalian perlu menerapkan filter dengan protokol yang tersebut.
+
+Pertama yang dilakukan adalah memilah paket dengan protokol TCP (Transfer Control Protocol)
+
+![image](https://user-images.githubusercontent.com/66405353/191034048-7a849aaf-1c3e-4d9e-854f-e9d4825b7ddd.png)
+
+Dari paket-paket yang ditampilkan, ditemukan adanya paket-paket yang suspicious antara ip address 127.0.0.1 melalui port 60236 dan ip address 127.0.1.1 melalui port 65432
+
+![image](https://user-images.githubusercontent.com/66405353/191034174-c7da38ef-0c29-495a-8a42-1f12928af47a.png)
+
+Kemudian ditampilkan hanya paket yang ditransfer antara kedua port tersebut
+
+![image](https://user-images.githubusercontent.com/66405353/191035982-df74f548-98ea-44e0-a09b-abe30ccdb705.png)
+
+Sehingga didapatkan percakapan penuh antara kedua oknum
+
+![bukti](https://user-images.githubusercontent.com/66405353/191038482-0e3a4621-831d-4740-96b4-686d5622abe9.png)
 
 ## 9
 > 
