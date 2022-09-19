@@ -21,22 +21,13 @@ Diperoleh webserver yang digunakan pada "monta.if.its.ac.id" dari informasi yang
 ## 2
 > Ishaq sedang bingung mencari topik ta untuk semester ini , lalu ia datang ke website monta dan menemukan detail topik pada website “monta.if.its.ac.id” , judul TA apa yang dibuka oleh ishaq ?
 
-Kasus soal ini, kita lakukan display filter menggunakan `tcp contains "monta.if.its.ac.id"` dan kita dapatkan halaman untuk **detail topik**
+Kasus soal ini, kita lakukan display filter menggunakan `tcp contains "monta.if.its.ac.id"` dan kita dapatkan url untuk **detail topik** yang dibuka oleh ishaq
 ![image](https://user-images.githubusercontent.com/67154280/191036247-7edf2c5c-1ce3-44d9-92a2-942dd0b6aefa.png)
 
-Setelah itu, lakukan `Follow > TCP Stream` dan didapatkan
-![image](https://user-images.githubusercontent.com/67154280/191036389-b346e1b9-4b62-4ee7-b41d-89f8fdbfed1a.png)
+Selanjutnya, kita buka url `http://monta.if.its.ac.id/index.php/topik/detailTopik/194` dan didapatkan hasil sebagai berikut
+![image](https://user-images.githubusercontent.com/67154280/191053491-2eeaa20f-a054-42e8-ad78-b35b5f3e6b13.png)
 
-Lalu, kita mengganti `Show data as` dari `ASCII` menjadi `Raw` dan kita `Save as` dengan nama file `detailTopik.zip`
-![image](https://user-images.githubusercontent.com/67154280/191036889-f29ea5d3-3303-4c30-b8a9-e5298d47ec0d.png)
-
-![image](https://user-images.githubusercontent.com/67154280/191037592-34ab95be-d4ca-4b19-ad87-0f5719f063d3.png)
-
-Selanjutnya, kita extract file `detailTopik.zip` dan kita mendapatkan file `detailTopik`, kemudian tambahkan extension `.html` dan akan diperoleh hasil berikut
-![image](https://user-images.githubusercontent.com/67154280/191037987-bd42ac49-0358-48f5-9657-08e4cf7beef6.png)
-
-Dengan menekan nama mahasiswa yang dicari oleh ishaq, kita mendapatkan judul TA yaitu **Perancangan Sistem Pengendali Panas Otomatis pada Mesin Sangrai Kopi dengan Logika Fuzzy**
-![image](https://user-images.githubusercontent.com/67154280/191040588-519a20e4-e726-4f8f-b2e8-a52080146737.png)
+Dengan demikian, kita mendapatkan judul TA yaitu **Evaluasi unjuk kerja User Space Filesystem (FUSE)**
 
 ## 3
 > Filter sehingga wireshark hanya menampilkan paket yang menuju port 80!
@@ -107,10 +98,14 @@ Sehingga didapatkan percakapan penuh antara kedua oknum
 ## 9
 > Terdapat laporan adanya pertukaran file yang dilakukan oleh kedua mahasiswa dalam percakapan yang diperoleh, carilah file yang dimaksud! Untuk memudahkan laporan kepada atasan, beri nama file yang ditemukan dengan format [nama_kelompok].des3 dan simpan output file dengan nama “flag.txt”.
 
-Dalam percakapan disebut pengiriman file melalui port 9003, ditemukan file salt
+Dalam percakapan disebut pengiriman file melalui port 9002, ditemukan file salt
 
 ![image](https://user-images.githubusercontent.com/66405353/191043635-000c2b61-cebe-47f6-89c2-bd3c2036bfc8.png)
+
+Setelah itu, lakukan `Follow > TCP Stream` dan didapatkan
 ![image](https://user-images.githubusercontent.com/66405353/191046138-1d87d8ff-748f-459e-9a21-77dab998f105.png)
+
+Lalu, kita mengganti `Show data as` dari `ASCII` menjadi `Raw` dan kita `Save as` dengan nama file `b10.des3` dan `flag.txt`
 ![image](https://user-images.githubusercontent.com/66405353/191046161-e0c3ee96-e0dc-42ee-894a-052dc0e4b5c4.png)
 ![image](https://user-images.githubusercontent.com/66405353/191046170-eabf3187-d5c0-4c68-ad6d-2e3530652624.png)
 
