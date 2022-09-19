@@ -127,4 +127,4 @@ Setelah itu didapatkan file flag.txt yang didalamnya terdapat password hasil dec
 
 ![image](https://user-images.githubusercontent.com/66405353/191055839-d662e67c-a48d-4883-9c43-3abf45bfdd9b.png)
 
-Password adalah "JaRkOm2022{8uK4N_CtF_k0k_h3h3h3}"
+Password adalah **JaRkOm2022{8uK4N_CtF_k0k_h3h3h3}**
