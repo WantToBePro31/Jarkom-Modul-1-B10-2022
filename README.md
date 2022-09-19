@@ -10,16 +10,33 @@
 ## 1
 > Sebutkan web server yang digunakan pada "monta.if.its.ac.id"! 
 
-Pertama, akses terlebih dahulu website http://monta.if.its.ac.id, kemudian lakukan display filter menggunakan `tcp contains "monta.if.its.ac.id"`
+Kasus soal ini, kita lakukan display filter menggunakan `tcp contains "monta.if.its.ac.id"`
 
 ![image](https://user-images.githubusercontent.com/67154280/191028336-49bb3a43-4e3c-4b14-b3ed-ed307957eced.png)
-Setelah itu, lakukan `Follow > TCP Stream`
+Setelah itu, lakukan `Follow > TCP Stream` dan didapatkan
 
 ![image](https://user-images.githubusercontent.com/67154280/191028414-aa5d941a-a1a2-4ce4-ade8-45463fe8bdc4.png)
 Diperoleh webserver yang digunakan pada "monta.if.its.ac.id" dari informasi yang didapatkan yaitu `nginx/1.10.3`
 
 ## 2
 > Ishaq sedang bingung mencari topik ta untuk semester ini , lalu ia datang ke website monta dan menemukan detail topik pada website “monta.if.its.ac.id” , judul TA apa yang dibuka oleh ishaq ?
+
+Kasus soal ini, kita lakukan display filter menggunakan `tcp contains "monta.if.its.ac.id"` dan kita dapatkan halaman untuk **detail topik**
+![image](https://user-images.githubusercontent.com/67154280/191036247-7edf2c5c-1ce3-44d9-92a2-942dd0b6aefa.png)
+
+Setelah itu, lakukan `Follow > TCP Stream` dan didapatkan
+![image](https://user-images.githubusercontent.com/67154280/191036389-b346e1b9-4b62-4ee7-b41d-89f8fdbfed1a.png)
+
+Lalu, kita mengganti `Show data as` dari `ASCII` menjadi `Raw` dan kita `Save as` dengan nama file `detailTopik.zip`
+![image](https://user-images.githubusercontent.com/67154280/191036889-f29ea5d3-3303-4c30-b8a9-e5298d47ec0d.png)
+
+![image](https://user-images.githubusercontent.com/67154280/191037592-34ab95be-d4ca-4b19-ad87-0f5719f063d3.png)
+
+Selanjutnya, kita extract file `detailTopik.zip` dan kita mendapatkan file `detailTopik`, kemudian tambahkan extension `.html` dan akan diperoleh hasil berikut
+![image](https://user-images.githubusercontent.com/67154280/191037987-bd42ac49-0358-48f5-9657-08e4cf7beef6.png)
+
+Dengan menekan nama mahasiswa yang dicari oleh ishaq, kita mendapatkan judul TA yaitu **Perancangan Sistem Pengendali Panas Otomatis pada Mesin Sangrai Kopi dengan Logika Fuzzy**
+![image](https://user-images.githubusercontent.com/67154280/191040588-519a20e4-e726-4f8f-b2e8-a52080146737.png)
 
 ## 3
 > Filter sehingga wireshark hanya menampilkan paket yang menuju port 80!
