@@ -67,6 +67,9 @@ kemudian , langsung masukin `tcp contains "lipi.go.id"`
 > Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
 
 pertama cek ip dulu `ipconfig` pada cmd 
+![image](https://github.com/WantToBePro31/Jarkom-Modul-1-B10-2022/blob/main/CMD2.png)
+
+kemudian, masukin di wifi pada wireshark lakukan `ip.src == 10.8.108.239` pada display filter.
 ![image](
 
 
