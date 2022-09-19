@@ -60,21 +60,21 @@ pertama masuk pada file paket yang tersedia , lakukan `tcp.srcport == 443` pada 
 
 ## 6
 > Filter sehingga wireshark hanya menampilkan paket yang menuju ke lipi.go.id !
-pertama , lakukan ping terlebih dahulu pada cmd `ping lipi.go.id`
+
+Pertama, lakukan ping terlebih dahulu pada cmd `ping lipi.go.id`
 ![image](https://github.com/WantToBePro31/Jarkom-Modul-1-B10-2022/blob/main/CMD.png)
 
-kemudian , langsung masukin `tcp contains "lipi.go.id"`
+Kemudian, langsung masukkan `tcp contains "lipi.go.id"`
 ![image](https://github.com/WantToBePro31/Jarkom-Modul-1-B10-2022/blob/main/No.6%20Jarkom.png)
 
 ## 7
 > Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
 
-pertama cek ip dulu `ipconfig` pada cmd 
+Pertama, cek ip dulu dengan `ipconfig` pada cmd 
 ![image](https://github.com/WantToBePro31/Jarkom-Modul-1-B10-2022/blob/main/CMD2.png)
 
-kemudian, masukin di wifi pada wireshark lakukan `ip.src == 10.8.108.239` pada display filter.
+Kemudian, masukkan di wifi pada wireshark lakukan `ip.src == 10.8.108.239` pada display filter.
 ![image](https://github.com/WantToBePro31/Jarkom-Modul-1-B10-2022/blob/main/No.7%20Jarkom.png)
-
 
 ### Cerita soal 8-10
 Untuk soal 8-10, silahkan baca cerita di bawah ini!
