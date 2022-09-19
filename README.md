@@ -55,26 +55,23 @@ Kasus soal ini, kita lakukan dengan display filter `tcp.srcport == 21` dan akan 
 ## 5
 > Filter sehingga wireshark hanya mengambil paket yang berasal dari port 443!
 
-pertama masuk pada file paket yang tersedia , lakukan `tcp.srcport == 443` pada display filter.
-![image](https://github.com/WantToBePro31/Jarkom-Modul-1-B10-2022/blob/main/No.5%20Jarkom.png)
-
 ## 6
 > Filter sehingga wireshark hanya menampilkan paket yang menuju ke lipi.go.id !
-
-Pertama, lakukan ping terlebih dahulu pada cmd `ping lipi.go.id`
+pertama , lakukan pint terlebih dahulu pada cmd `ping lipi.go.id`
 ![image](https://github.com/WantToBePro31/Jarkom-Modul-1-B10-2022/blob/main/CMD.png)
 
-Kemudian, langsung masukkan `tcp contains "lipi.go.id"`
+kemudian , langsung masukin `tcp contains "lipi.go.id"`
 ![image](https://github.com/WantToBePro31/Jarkom-Modul-1-B10-2022/blob/main/No.6%20Jarkom.png)
 
 ## 7
 > Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
 
-Pertama, cek ip dulu dengan `ipconfig` pada cmd 
+pertama cek ip dulu `ipconfig` pada cmd 
 ![image](https://github.com/WantToBePro31/Jarkom-Modul-1-B10-2022/blob/main/CMD2.png)
 
-Kemudian, masukkan di wifi pada wireshark lakukan `ip.src == 10.8.108.239` pada display filter.
+kemudian, masukin di wifi pada wireshark lakukan `ip.src == 10.8.108.239` pada display filter.
 ![image](https://github.com/WantToBePro31/Jarkom-Modul-1-B10-2022/blob/main/No.7%20Jarkom.png)
+
 
 ### Cerita soal 8-10
 Untuk soal 8-10, silahkan baca cerita di bawah ini!
@@ -104,7 +101,18 @@ Sehingga didapatkan percakapan penuh antara kedua oknum
 ![bukti](https://user-images.githubusercontent.com/66405353/191038482-0e3a4621-831d-4740-96b4-686d5622abe9.png)
 
 ## 9
-> 
+> Terdapat laporan adanya pertukaran file yang dilakukan oleh kedua mahasiswa dalam percakapan yang diperoleh, carilah file yang dimaksud! Untuk memudahkan laporan kepada atasan, beri nama file yang ditemukan dengan format [nama_kelompok].des3 dan simpan output file dengan nama “flag.txt”.
+
+Dalam percakapan disebut pengiriman file melalui port 9003, ditemukan file salt
+
+![image](https://user-images.githubusercontent.com/66405353/191043635-000c2b61-cebe-47f6-89c2-bd3c2036bfc8.png)
+![image](https://user-images.githubusercontent.com/66405353/191046138-1d87d8ff-748f-459e-9a21-77dab998f105.png)
+![image](https://user-images.githubusercontent.com/66405353/191046161-e0c3ee96-e0dc-42ee-894a-052dc0e4b5c4.png)
+![image](https://user-images.githubusercontent.com/66405353/191046170-eabf3187-d5c0-4c68-ad6d-2e3530652624.png)
+![image](https://user-images.githubusercontent.com/66405353/191046175-93e4072e-8275-4227-8205-420cfc0fb88f.png)
+
+
 
 ## 10
-> 
+> Temukan password rahasia (flag) dari organisasi bawah tanah yang disebutkan di atas!
+
