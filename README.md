@@ -109,10 +109,9 @@ Dalam percakapan disebut pengiriman file melalui port 9003, ditemukan file salt
 ![image](https://user-images.githubusercontent.com/66405353/191046138-1d87d8ff-748f-459e-9a21-77dab998f105.png)
 ![image](https://user-images.githubusercontent.com/66405353/191046161-e0c3ee96-e0dc-42ee-894a-052dc0e4b5c4.png)
 ![image](https://user-images.githubusercontent.com/66405353/191046170-eabf3187-d5c0-4c68-ad6d-2e3530652624.png)
-![image](https://user-images.githubusercontent.com/66405353/191046175-93e4072e-8275-4227-8205-420cfc0fb88f.png)
-
 
 
 ## 10
 > Temukan password rahasia (flag) dari organisasi bawah tanah yang disebutkan di atas!
 
+![image](https://user-images.githubusercontent.com/66405353/191048143-72c8366f-d2c7-4252-adb3-0295167d22cc.png)
