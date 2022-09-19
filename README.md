@@ -115,4 +115,16 @@ Lalu, kita mengganti `Show data as` dari `ASCII` menjadi `Raw` dan kita `Save as
 ## 10
 > Temukan password rahasia (flag) dari organisasi bawah tanah yang disebutkan di atas!
 
-![image](https://user-images.githubusercontent.com/66405353/191048143-72c8366f-d2c7-4252-adb3-0295167d22cc.png)
+Pertama copy file des3 ke dalam direktori wsl
+
+![image](https://user-images.githubusercontent.com/66405353/191055596-4765dade-112f-4180-996d-b4afea081d20.png)
+
+Kemudian jalankan dalam wsl ubuntu command: openssl des3 -d -in b10.des3 -out flag.txt dengan password = 'nakano'
+
+![image](https://user-images.githubusercontent.com/66405353/191055629-53e3275e-8353-45ed-8e25-78c4ebfece9d.png)
+
+Setelah itu didapatkan file flag.txt yang didalamnya terdapat password hasil decrypt
+
+![image](https://user-images.githubusercontent.com/66405353/191055839-d662e67c-a48d-4883-9c43-3abf45bfdd9b.png)
+
+Password adalah "JaRkOm2022{8uK4N_CtF_k0k_h3h3h3}"
