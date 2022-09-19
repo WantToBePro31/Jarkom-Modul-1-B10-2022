@@ -39,7 +39,7 @@ Kasus soal ini, kita lakukan dengan display filter `tcp.srcport == 21` dan akan 
 > Filter sehingga wireshark hanya mengambil paket yang berasal dari port 443!
 
 Pertama , buka file paket yang tersedia pada drive , kemudian lakukan `tcp.srcport == 443`
-![image](https://drive.google.com/drive/u/0/folders/14f85-_uVA-HfheDwLzWHqmfgGv0bwvgr)
+
 ## 6
 > Filter sehingga wireshark hanya menampilkan paket yang menuju ke lipi.go.id !
 
