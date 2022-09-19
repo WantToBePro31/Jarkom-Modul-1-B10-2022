@@ -38,6 +38,9 @@ Kasus soal ini, kita lakukan dengan display filter `tcp.srcport == 21` dan akan 
 ## 5
 > Filter sehingga wireshark hanya mengambil paket yang berasal dari port 443!
 
+pertama, buka file paket yang tersedia, lakukan `tcp.port == 443`
+![image](https://github.com/WantToBePro31/Jarkom-Modul-1-B10-2022/blob/main/No.5%20Jarkom.png)
+
 ## 6
 > Filter sehingga wireshark hanya menampilkan paket yang menuju ke lipi.go.id !
 
@@ -55,7 +58,6 @@ Di sebuah planet bernama Viltrumite, terdapat Kementerian Komunikasi dan Informa
 > Telusuri aliran paket dalam file .pcap yang diberikan, cari informasi berguna berupa percakapan antara dua mahasiswa terkait tindakan kecurangan pada kegiatan praktikum. Percakapan tersebut dilaporkan menggunakan protokol jaringan dengan tingkat keandalan yang tinggi dalam pertukaran datanya sehingga kalian perlu menerapkan filter dengan protokol yang tersebut.
 
 Pertama yang dilakukan adalah memilah paket dengan protokol TCP (Transfer Control Protocol)
-> display filter: tcp
 
 ![image](https://user-images.githubusercontent.com/66405353/191034048-7a849aaf-1c3e-4d9e-854f-e9d4825b7ddd.png)
 
@@ -64,7 +66,6 @@ Dari paket-paket yang ditampilkan, ditemukan adanya paket-paket yang suspicious 
 ![image](https://user-images.githubusercontent.com/66405353/191034174-c7da38ef-0c29-495a-8a42-1f12928af47a.png)
 
 Kemudian ditampilkan hanya paket yang ditransfer antara kedua port tersebut
-> display filter: (tcp.srcport == 60236 and tcp.dstport == 65432) or (tcp.srcport == 65432 and tcp.dstport == 60236)
 
 ![image](https://user-images.githubusercontent.com/66405353/191035982-df74f548-98ea-44e0-a09b-abe30ccdb705.png)
 
