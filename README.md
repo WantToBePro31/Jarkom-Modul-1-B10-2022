@@ -14,9 +14,9 @@
 
 ### Penyelesaian
 
-Kasus soal ini, kita lakukan display filter menggunakan `tcp contains "monta.if.its.ac.id"`
+Kasus soal ini, kita lakukan display filter menggunakan `http contains "monta.if.its.ac.id"`
 
-![image](https://user-images.githubusercontent.com/67154280/191028336-49bb3a43-4e3c-4b14-b3ed-ed307957eced.png)
+![image](https://user-images.githubusercontent.com/67154280/191680178-98d80344-6589-445e-a4c7-318a57d378ea.png)
 
 Setelah itu, lakukan `Follow > TCP Stream` dan didapatkan
 
@@ -29,9 +29,9 @@ Diperoleh webserver yang digunakan pada "monta.if.its.ac.id" dari informasi yang
 
 ### Penyelesaian
 
-Kasus soal ini, kita lakukan display filter menggunakan `tcp contains "monta.if.its.ac.id"` dan kita dapatkan url untuk **detail topik** yang dibuka oleh ishaq
+Kasus soal ini, kita lakukan display filter menggunakan `http contains "monta.if.its.ac.id"` dan kita dapatkan url untuk **detail topik** yang dibuka oleh ishaq
 
-![image](https://user-images.githubusercontent.com/67154280/191036247-7edf2c5c-1ce3-44d9-92a2-942dd0b6aefa.png)
+![image](https://user-images.githubusercontent.com/67154280/191680389-1b64be83-6f10-43c5-8eda-b8a5204ddeb6.png)
 
 Selanjutnya, kita buka url `http://monta.if.its.ac.id/index.php/topik/detailTopik/194` dan didapatkan hasil sebagai berikut
 
