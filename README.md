@@ -44,7 +44,7 @@ Dengan demikian, kita mendapatkan judul TA yaitu **`Evaluasi unjuk kerja User Sp
 
 ### Penyelesaian
 
-Kasus soal ini, kita lakukan dengan capture filter `tcp.dstport == 80` dan akan mendapatkan hasil sebagai berikut
+Kasus soal ini, kita lakukan dengan display filter `tcp.dstport == 80` dan akan mendapatkan hasil sebagai berikut
 
 ![image](https://user-images.githubusercontent.com/67154280/191031218-18699a9f-1798-4935-b4a8-ec212a29cbfb.png)
 
